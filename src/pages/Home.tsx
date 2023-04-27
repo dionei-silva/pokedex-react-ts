@@ -14,11 +14,11 @@ const Home: React.FC = () => {
   const pokemonsRedux = useAppSelector(selectAll);
 
   useEffect(() => {
-    dispatch(getPokemon(5));
-    dispatch(getPokemon(4));
-    dispatch(getPokemon(6));
-    dispatch(getPokemon(7));
-  },[]);
+    dispatch(getPokemon(8));
+    dispatch(getPokemon(9));
+    dispatch(getPokemon(15));
+    dispatch(getPokemon(10));
+  }, []);
 
   return (
     <Grid container spacing={2}>
